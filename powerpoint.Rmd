@@ -1,0 +1,94 @@
+---
+title: "Confirmatory Factor Analysis using Lavaan of UTAUT2 Survey Data to assess construct validity and model fit"
+author: "Subash Parajuli"
+date: "2023-05-08"
+output: powerpoint_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+Using Bayesian analysis, examined the factors that influence students' intention to use e-learning via Facebook. The authors collected data from 170 students enrolled in a business statistics course at the University of Malaya, Malaysia. They tested the data using maximum likelihood and Bayesian approaches.
+
+As a part of the data analysis project, I analyzed the raw data provided by the authors using STATA and lavaan to run a full structural equation modeling of the questionnaires. The instrument used in the survey was UTAUT (Unified Theory of Acceptance and Use of Technology).
+
+## Literature Review
+
+As a part of the data analysis project, I analyzed the raw data provided by the authors using STATA and lavaan to run a full structural equation modeling of the questionnaires. The instrument used in the survey was UTAUT (Unified Theory of Acceptance and Use of Technology).
+
+The Unified Theory of Acceptance and Use of Technology (UTAUT) is a widely used theoretical model for studying technology acceptance and user behavior in various contexts. UTAUT proposes that behavioral intention to use technology is determined by four main constructs: performance expectancy, effort expectancy, social influence, and facilitating conditions. Several moderators, such as gender, age, experience, and voluntariness of use influence these constructs. The most recent version of UTAUT is UTAUT2, which incorporates additional constructs such as hedonic motivation, price value, and habit.
+
+## Literature Review
+
+UTAUT2 incorporates seven key constructs that explain user behavior toward technology adoption.
+
+**Performance expectancy:** This degree to which an individual believes using technology will enhance their performance. It includes perceived usefulness, the degree to which technology is perceived to improve task performance, and job relevance.
+
+**Effort expectancy:** This construct refers to the degree of ease associated with using technology. It includes perceived ease of use, which is the degree to which technology is perceived to be easy to use.
+
+## Literature Review
+
+**Social influence:** This refers to the degree to which an individual perceives that important others believe they should use technology. It includes subjective norm, which is the degree to which an individual perceives social pressure to use technology.
+
+**Facilitating conditions:** This refers to the degree to which an individual believes that the organizational and technical infrastructure is in place to support technology use. It includes technical support, which is the degree to which an individual perceives that technical assistance is available when needed, and infrastructure, which is the degree to which an individual perceives that the necessary product is available.
+
+## Literature Review
+
+**Hedonic motivation:** This construct refers to the degree to which an individual perceives that using technology is fun, entertaining, and enjoyable. It includes intrinsic motivation, which is the degree to which an individual is motivated to use technology because they find it enjoyable or satisfying, and enjoyment, which is the degree to which an individual finds using technology enjoyable.
+
+**Price value:** This construct refers to the degree to which an individual perceives that the benefits of using technology outweigh its cost. It includes the perceived value, which is the degree to which an individual perceives that the benefits of using technology are greater than its cost.
+
+## Literature Review
+
+**Habit:** Habit refers to the degree to which an individual has developed a pattern of using technology regularly. It includes habit strength, the degree to which an individual's behavior towards technology is automatic and without conscious thought.
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+-   Bullet 1
+-   Bullet 2
+-   Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
