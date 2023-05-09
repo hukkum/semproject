@@ -2,7 +2,7 @@ library(lavaan)
 
 # Specify the model
 model <- '
-   # UTAUT Measurement Model
+   # UTAUT2 Measurement Model
   
    PE =~ PE1+PE2+PE3+PE4+PE5
    EF =~ EF1+EF2+EF3+EF4
@@ -12,6 +12,10 @@ model <- '
    HB =~ Habit1+Habit2+Habit3+Habit4 
    IU =~ ITU1+ITU2+ITU3+ITU4+ITU5+ITU6+ITU7+ITU8+ITU8+ITU9+ITU10+ITU11
    UB =~ UB1+UB2+UB3+UB4
+  
+  #UTAUT2 Structural Model
+  IU =~ PE+EF+FC+HM+SI+HB
+  UB =~ HB+IU+FC
 '
 
 # Fit the model
